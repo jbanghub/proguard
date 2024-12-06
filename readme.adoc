@@ -1,0 +1,5 @@
+# JBangHub Catalog for proguard 
+
+This is a catalog of JBang scripts for proguard.
+
+Curated and created by the community.

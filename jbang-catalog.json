@@ -1,0 +1,18 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "retrace": {
+      "script-ref": "com.guardsquare:proguard-retrace:7.6.0",
+      "main": "proguard.retrace.ReTrace"
+    },
+    "proguard": {
+      "script-ref": "com.guardsquare:proguard-base:7.6.0",
+      "main": "proguard.ProGuard"
+    },
+    "proguard-gui": {
+      "script-ref": "com.guardsquare:proguard-gui:7.6.0",
+      "main": "proguard.gui.ProGuardGUI"
+    }
+  },
+  "templates": {}
+}
