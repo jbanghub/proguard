@@ -1,5 +1,35 @@
-# JBangHub Catalog for proguard 
+# JBangHub Catalog for ProGuard 
 
-This is a catalog of JBang scripts for proguard.
+This catalog contains scripts for working with ProGuard.
+You can use these scripts to run ProGuard and its GUI without having to install them directly.
+
+You can find more information about JBang at https://jbang.dev
+
+General documentation for ProGuard is at https://www.guardsquare.com/manual/quickstart
+
+## Usage
+
+The JBangHub Catalog for ProGuard includes several aliases that you can use to run different ProGuard tools directly. These aliases are defined in the `jbang-catalog.json` file and can be executed using JBang.
+
+Here are the available aliases:
+
+- `retrace@jbanghub/proguard`: Runs the ProGuard ReTrace tool.
+- `proguard@jbanghub/proguard`: Runs the ProGuard tool.
+- `proguard-gui@jbanghub/proguard`: Runs the ProGuard GUI.
+
+To run any of these aliases directly, you can use the following commands:
+
+```bash
+jbang <alias>@jbanghub/proguard <scriptOrFile>
+```
+
+or install the alias using `jbang app install <alias>@jbanghub/proguard`
+
+For example to install and run the ProGuard GUI:
+
+```bash
+jbang app install proguard-gui@jbanghub/proguard
+proguard-gui 
+```
 
 Curated and created by the community.
