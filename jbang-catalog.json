@@ -6,7 +6,7 @@
       "main": "proguard.retrace.ReTrace"
     },
     "proguard": {
-      "script-ref": "com.guardsquare:proguard-base:7.6.0",
+      "script-ref": "com.guardsquare:proguard-base:7.6.1",
       "main": "proguard.ProGuard"
     },
     "proguard-gui": {
