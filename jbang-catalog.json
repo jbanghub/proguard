@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "retrace": {
-      "script-ref": "com.guardsquare:proguard-retrace:7.6.1",
+      "script-ref": "com.guardsquare:proguard-retrace:7.7.0",
       "main": "proguard.retrace.ReTrace"
     },
     "proguard": {
