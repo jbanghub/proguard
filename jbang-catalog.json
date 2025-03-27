@@ -10,7 +10,7 @@
       "main": "proguard.ProGuard"
     },
     "proguard-gui": {
-      "script-ref": "com.guardsquare:proguard-gui:7.6.1",
+      "script-ref": "com.guardsquare:proguard-gui:7.7.0",
       "main": "proguard.gui.ProGuardGUI"
     }
   },
